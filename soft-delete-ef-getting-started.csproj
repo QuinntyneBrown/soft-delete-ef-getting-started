@@ -57,8 +57,11 @@
     <Compile Include="Data\Helpers\SoftDeleteAttribute.cs" />
     <Compile Include="Data\Helpers\SoftDeleteInterceptor.cs" />
     <Compile Include="Data\Helpers\SoftDeleteQueryVisitor.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Migrations\SoftDeleteEntityFrameworkGettingStartedConfiguration.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Data\Model\Game.cs" />
+    <Compile Include="Migrations\GameConfiguration.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
